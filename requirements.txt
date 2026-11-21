@@ -1,0 +1,10 @@
+# Python 3.13+   install: pip install -r requirements.txt
+# Document conversion (layout, tables, reading order) - MIT
+docling>=2.151,<3
+# OCR engine used by Docling for scanned pages (pip-installable, Polish support)
+rapidocr>=3.10,<4
+onnxruntime>=1.32
+# Parsing organiser's expected-JSON files (they contain // comments)
+json5>=0.17
+# Data analysis / reports
+pandas>=3.1
