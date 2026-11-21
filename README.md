@@ -174,44 +174,17 @@ Ocena zgodności wyników z danymi referencyjnymi na nieznanym zbiorze testowym.
 ### 2. Elastyczność i możliwość rozbudowy rozwiązania – 50%
 
 Ocena uwzględniać będzie:
-* 1-20 pkt za moc modelu LLM. Im mocniejszy model liczony w miliardach parametrów, tym mniejsza ilość punktów. Innymi słowy, zależy nam na znalezieniu równowagi między skutecznością ekstrakcji, a kosztami. Jeśli użyjecie wielu modeli - liczyć się będzie *średnia* z użytych LMMów.
+* 1-20 pkt za moc modelu LLM. Im mocniejszy model liczony w miliardach parametrów, tym mniejsza ilość punktów. Innymi słowy, zależy nam na znalezieniu równowagi między skutecznością ekstrakcji, a kosztami. Poniżej więcej info.
 * 1-20 Łatwość dodawania nowych typów dokumentów i nowych klas danych bez konieczności przebudowy całego systemu.
 * 1-10 Inne ciekawe funkcje dodane do aplikacji (np. GUI)
 
 #### Sposób punktacji LLM
-Ocena opiera się na średniej liczbie parametrów modeli LLM wykorzystanych w rozwiązaniu. Przy modelach MoE znaczenie będzie mieć liczba parametrów ogółem, nie tylko aktywne.
-
-  ---------------------------------- ----------------------------------
-  Średnia wielkość modelu            Punkty
-
-  ≤ 8B                               = 20
-
-  \>8B -- 14B                        = 18
-
-  \>14B -- 32B                       = 12
-
-  \>32B -- 70B                       = 8
-
-  \>70B -- 150B                      = 4
-
-  \>150B                             = 0
-  ---------------------------------- ----------------------------------
-
-**W przypadku wykorzystania wielu modeli** przyjmowana jest średnia liczba parametrów wszystkich modeli użytych do realizacji zadania.
-
-**W przypadku wykorzystania modeli wyłącznie lokalnie**, które da się uruchomić na maszynie testowej oraz przetworzą dokumenty w oczekiwanym czasie - przyznane zostanie 20 punktów.
-
-Przykład:
-
-- model 1: 3B
-
-- model 2: 32B
-
-Średnia = 17,5B → 12 pkt.
+W wyniku dyskusji z uczestnikami i zgłoszeń o potencjalnych sposobach manipulacji, pracujemy nad nowymi wytycznymi. stay tuned. 
 
 # Wyjątki
 
 ## OCR po API
-Możecie wykorzystać OCR lokalny lub przez API. Jeśli przez API -> jego parametry będą liczone jak dla LLM i brane do średniej.
+Możecie wykorzystać OCR lokalny lub przez API. Jeśli przez API -> jego parametry będą liczone jak dla LLM i brane pod uwagę w procesie oceny.
 
-## Maksymalny czas 
+## Maksymalny czas przetwarzania
+Wasze rozwiązanie będzie testowane na 150 plikach PDF. Maksymalny czas przetwarzania całego tego zbioru to 45 minut.
