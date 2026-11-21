@@ -210,4 +210,4 @@ Przykład:
 # Wyjątki
 
 ## OCR po API
-Możecie wykorzystać OCR lokalny lub pi
+Możecie wykorzystać OCR lokalny lub przez API. Jeśli przez API -> jego parametry będą liczone jak dla LLM i brane do średniej.
