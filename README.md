@@ -51,7 +51,7 @@ Odpowiedzialny za:
 
 - analizę dokumentów,
 
-- klasyfikację dokumentów,
+- klasyfikację dokumentów na podstawie ich zawartości (uwaga! nazwa pliku może być różna - nie sugerujcie się nazwą pliku),
 
 - ekstrakcję informacji,
 
