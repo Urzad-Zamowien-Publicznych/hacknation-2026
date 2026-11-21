@@ -95,5 +95,4 @@ git clone <adres-repozytorium> repo     # albo skopiujcie pliki bezpośrednio do
    albo komenda musi ją uruchomić sama.
 6. **Modele, obrazy Dockera i zależności pobierzcie wcześniej na serwer.** Nie zakładajcie, że w czasie oceny
    pobranie kilku GB się uda.
-7. **Klucze API zewnętrznych usług** (np. do modeli w chmurze) umieśćcie w `/opt/solution/.env` i opiszcie w `RUN.md`,
-   z których usług korzystacie. Nie wpisujcie ich na sztywno w kod w publicznym repozytorium.
+7. **Klucze API zewnętrznych usług** (np. do modeli w chmurze) umieśćcie w `/opt/solution/.env` i opiszcie w `RUN.md`, z których usług korzystacie. Nie wpisujcie ich na sztywno w kod w publicznym repozytorium.
