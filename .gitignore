@@ -1,0 +1,15 @@
+# Environment
+.venv/
+.env
+__pycache__/
+*.pyc
+.idea/
+
+# Generated / cached
+.cache/
+traces/
+dane/output/*
+!dane/output/.gitkeep
+
+# Docling models (downloaded on first run)
+models/
