@@ -199,6 +199,8 @@ Ocena opiera się na średniej liczbie parametrów modeli LLM wykorzystanych w r
 
 **W przypadku wykorzystania wielu modeli** przyjmowana jest średnia liczba parametrów wszystkich modeli użytych do realizacji zadania.
 
+**W przypadku wykorzystania modeli wyłącznie lokalnie**, które da się uruchomić na maszynie testowej oraz przetworzą dokumenty w oczekiwanym czasie - przyznane zostanie 20 punktów.
+
 Przykład:
 
 - model 1: 3B
@@ -211,3 +213,5 @@ Przykład:
 
 ## OCR po API
 Możecie wykorzystać OCR lokalny lub przez API. Jeśli przez API -> jego parametry będą liczone jak dla LLM i brane do średniej.
+
+## Maksymalny czas 
