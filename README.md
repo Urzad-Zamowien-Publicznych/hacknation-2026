@@ -142,6 +142,8 @@ Ocena zostanie przeprowadzona na dwóch zbiorach danych:
 
 Udostępniony uczestnikom podczas realizacji wyzwania dostępny w katalogu dane. Zbiór danych zawiera też kategorie dokumentów, które NIE powinny być zidentyfikowane (zwrócić pusty plik `.json`).
 
+dane negatywne (które nie powinny zostać sklasyfikowane) umieszczone zostały w wybranych przykładach oraz w katalogu https://github.com/Urzad-Zamowien-Publicznych/hacknation-2026/tree/main/dane/negatywne.
+
 ### Zbiór testowy
 
 Nieudostępniany uczestnikom.
